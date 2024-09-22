@@ -6,14 +6,11 @@ Question: What skills are requited for the top-paying data analyst jobs?
     - helping job seekers understand which skills to develop that align with top salaries
 */
 
-SELECT
+WITH top_paying_jobs AS (SELECT
     job_postings_fact.job_id,
     job_postings_fact.job_title,
-    job_postings_fact.job_location,
-    job_postings_fact.job_schedule_type,
     job_postings_fact.salary_year_avg,
     job_postings_fact.job_country,
-    job_postings_fact.job_posted_date,
     company_dim.name AS company_name
 FROM
     job_postings_fact
@@ -25,4 +22,14 @@ WHERE
     AND (job_postings_fact.job_location LIKE '%Indonesia%' OR job_country = 'Indonesia')
     AND salary_year_avg IS NOT NULL
 ORDER BY
-    salary_year_avg DESC;
+    salary_year_avg DESC
+)
+
+SELECT 
+    top_paying_jobs.*,
+    skills
+FROM top_paying_jobs
+INNER JOIN skills_job_dim ON top_paying_jobs.job_id = skills_job_dim.job_id
+INNER JOIN skills_dim ON skills_job_dim.skill_id = skills_dim.skill_id
+ORDER BY
+    salary_year_avg DESC
