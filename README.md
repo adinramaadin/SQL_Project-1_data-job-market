@@ -53,7 +53,6 @@ ORDER BY
     salary_year_avg DESC;
 ```
 
-
 ### Top 10 Highest-Paying Data Analyst Roles
 
 | Job ID   | Job Title                                          | Company Name     | Location                                                | Schedule Type | Average Salary (USD) | Posted Date          |
@@ -86,10 +85,9 @@ ORDER BY
 5. **Location Significance**:
    - Jakarta stands out as a key hub for data analyst opportunities, emphasizing the city's role in Indonesia's tech and finance industries.
 
+![Salaries for Data Analyst in Indonesia](assets/salaries_for_data_analyst_in_Indonesia.png)
+*Bar graph visualizing the salary for data analysts in Indonesia; I used Python for this visualization.*
 
-
-![Salaries for Data Analyst in Indonesia](assets\salaries_for_data_analyst_in_Indonesia.png)
-*Bar graph visualizing the salary for data analysts in Indonesia; I use Python for this visualization*
 
 ## 2. Skills for Top Paying Jobs
 To understand what skills are required for the top-paying jobs, I joined the job postings with the skills data, providing insights into what employers value for high-compensation roles.
@@ -176,7 +174,6 @@ LIMIT 5;
 ```  
 Here's the breakdown of the most demanded skills for data analysts in Indonesia in 2023
 
-
 | Skill    | Demand Count |
 |----------|--------------|
 | SQL      | 214          |
@@ -184,6 +181,7 @@ Here's the breakdown of the most demanded skills for data analysts in Indonesia 
 | Excel    | 122          |
 | Tableau  | 109          |
 | R        | 82           |
+
 *Table of the demand for the top 5 skills in data analyst job postings*
 
 ### Key Takeaways
@@ -292,6 +290,7 @@ Here's a breakdown of the most optimal skills for Data Analysts in 2023 based on
 | GitLab       | 1            | $57,500        |
 | Asana        | 1            | $57,500        |
 | Slack        | 1            | $57,500        |
+
 *Table of the most optimal skills for data analyst sorted by salary*
 
 ### Key Insights
@@ -319,3 +318,6 @@ This experience has significantly enhanced my SQL capabilities:
 ### Closing Thoughts
 
 This project enhanced my SQL skills and provided valuable insights into the data analyst job market. The findings from the analysis serve as a guide to prioritizing skill development and job search efforts. Aspiring data analysts can better position themselves in a competitive job market by focusing on high-demand, high-salary skills. This exploration highlights the importance of continuous learning and adaptation to emerging trends in the field of data analytics.
+
+
+[def]: assets\salaries_for_data_analyst_in_Indonesia.png
