@@ -1,6 +1,6 @@
 
 # Introduction
-📊 Explore the data job market! This project focuses on data analyst roles, uncovering 💰 top-paying positions, 🔥 in-demand skills, and 📈 the intersection of high demand and high salaries in data analytics.
+📊 Explore the data job market! This project focuses on data analyst roles, uncovering top-paying positions, in-demand skills, and the intersection of high demand and high salaries in data analytics.
 
 🔍 My SQL queries are stored here: [project_sql folder](/Project_sql/)
 
